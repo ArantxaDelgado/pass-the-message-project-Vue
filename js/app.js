@@ -16,8 +16,6 @@ Vue.createApp({
 
             this.lastMessage = this.newMessage;
             this.newMessage = ""
-        },
-
-        
+        }        
     }
   }).mount("#app");
